@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  background-color: #e0e1dd;
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(80, 80, 90);
+  font-size: 16px;
+  line-height: normal;
+}
+
+h1, h2, h3 {
+  color: #415a77;
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  font-size: 32px;
+  line-height: 32px;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 16px;
+}
+
+a {
+  color: #778da9;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0d1b2a;
+  text-decoration: none;
+}
+
+.img-circle {
+  width: 100px;
+  border-radius: 50%
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card-white {
+  background-color: white;
+  padding: 32px;
+  width: 500px;
+  margin: 16px auto;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+display: inline-block;
+padding: 0px, 20px;
+}
+
+.btn-blue {
+  background-color: #415a77 ;
+  color: white;
+  border-radius: 4px;
+  padding: 8px 16px;
+  border: 1px solid transparent
+}
+
+.btn-blue:hover {
+  background-color: white ;
+  color: #415a77;
+  border: 1px solid #415a77;
+}
+
+#intro p {
+  margin-bottom: 24px;
+}
+
+#footer a {
+  font-size: 32px;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+  .card-white {
+    width: 400px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+  .card-white {
+    width: 300px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+  .card-white {
+    width: 200px;
+  }
+}
